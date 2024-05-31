@@ -10,6 +10,45 @@
 	
 	
 	<item>
+		<title>Dev snapshot: Godot 4.3 beta 1</title>
+		<link>https://godotengine.org/article/dev-snapshot-godot-4-3-beta-1/</link>
+		<description>Godot 4.3 is ready for broad testing as we finalize the release.</description>
+		
+		<category>Pre-release</category>
+		
+		<guid>https://godotengine.org/article/dev-snapshot-godot-4-3-beta-1/</guid>
+		<dc:creator>Godot contributors</dc:creator>
+		<pubDate>Fri, 31 May 2024 11:00:00 +0000</pubDate>
+		<image>https://godotengine.org/storage/blog/covers/dev-snapshot-godot-4-3-beta-1.webp</image>
+	</item>
+	
+	<item>
+		<title>Web Export in 4.3</title>
+		<link>https://godotengine.org/article/progress-report-web-export-in-4-3/</link>
+		<description>With single-threaded builds and sample playback, it&#39;s now easier than ever to export your game to the Web with Godot 4.3. And more!</description>
+		
+		<category>Progress Report</category>
+		
+		<guid>https://godotengine.org/article/progress-report-web-export-in-4-3/</guid>
+		<dc:creator>Adam Scott</dc:creator>
+		<pubDate>Wed, 15 May 2024 13:15:00 +0000</pubDate>
+		<image>https://godotengine.org/storage/blog/covers/progress-report-web-export-in-4-3.webp</image>
+	</item>
+	
+	<item>
+		<title>Dev snapshot: Godot 3.6 beta 5</title>
+		<link>https://godotengine.org/article/dev-snapshot-godot-3-6-beta-5/</link>
+		<description>This beta represents feature freeze for 3.6. We will now concentrate on bug fixing until we reach stable.</description>
+		
+		<category>Pre-release</category>
+		
+		<guid>https://godotengine.org/article/dev-snapshot-godot-3-6-beta-5/</guid>
+		<dc:creator>lawnjelly</dc:creator>
+		<pubDate>Mon, 13 May 2024 14:00:00 +0000</pubDate>
+		<image>https://godotengine.org/storage/blog/covers/dev-snapshot-godot-3-6-beta-5.webp</image>
+	</item>
+	
+	<item>
 		<title>Dev snapshot: Godot 4.3 dev 6</title>
 		<link>https://godotengine.org/article/dev-snapshot-godot-4-3-dev-6/</link>
 		<description>The last dev snapshot for 4.3 before feature freeze is a big one after 6 weeks of work!</description>
@@ -280,45 +319,6 @@
 		<dc:creator>Yuri Sizov</dc:creator>
 		<pubDate>Thu, 21 Dec 2023 17:00:00 +0000</pubDate>
 		<image>https://godotengine.org/storage/blog/covers/dev-snapshot-godot-4-3-dev-1.webp</image>
-	</item>
-	
-	<item>
-		<title>Prepare to hear a lot more from us!</title>
-		<link>https://godotengine.org/article/communications-update-2023/</link>
-		<description>The Godot Foundation is onboarding a person in charge of Community &amp; Communications, and there is a feedback form for you to fill out.</description>
-		
-		<category>News</category>
-		
-		<guid>https://godotengine.org/article/communications-update-2023/</guid>
-		<dc:creator>Godot Foundation</dc:creator>
-		<pubDate>Mon, 18 Dec 2023 15:00:00 +0000</pubDate>
-		<image>https://godotengine.org/storage/blog/covers/comms-update-18122023.jpg</image>
-	</item>
-	
-	<item>
-		<title>Announcing a collaboration with Google and The Forge</title>
-		<link>https://godotengine.org/article/collaboration-with-google-forge-2023/</link>
-		<description>We are excited to announce that we have partnered with Google and The Forge to bring some helpful performance optimizations to our Vulkan mobile backend.</description>
-		
-		<category>News</category>
-		
-		<guid>https://godotengine.org/article/collaboration-with-google-forge-2023/</guid>
-		<dc:creator>Clay John</dc:creator>
-		<pubDate>Thu, 14 Dec 2023 15:00:00 +0000</pubDate>
-		<image>https://godotengine.org/storage/blog/covers/android-and-vulkan.webp</image>
-	</item>
-	
-	<item>
-		<title>Maintenance release: Godot 4.2.1</title>
-		<link>https://godotengine.org/article/maintenance-release-godot-4-2-1/</link>
-		<description>This first maintenance release fixes a number of platform compatibility issues introduced in Godot 4.2, which should make it much easier to upgrade from 4.1 or start new projects on all platforms.</description>
-		
-		<category>Release</category>
-		
-		<guid>https://godotengine.org/article/maintenance-release-godot-4-2-1/</guid>
-		<dc:creator>Rémi Verschelde</dc:creator>
-		<pubDate>Tue, 12 Dec 2023 13:00:00 +0000</pubDate>
-		<image>https://godotengine.org/storage/blog/covers/maintenance-release-godot-4-2-1.webp</image>
 	</item>
 	
 

@@ -5,6 +5,39 @@
 	
 		
 		{
+			"title": "Dev snapshot: Godot 4.3 beta 1",
+			"link": "https://godotengine.org/article/dev-snapshot-godot-4-3-beta-1/",
+			"description": "Godot 4.3 is ready for broad testing as we finalize the release.",
+			"categories": ["Pre-release"],
+			"guid": "https://godotengine.org/article/dev-snapshot-godot-4-3-beta-1/",
+			"dc:creator": "Godot contributors",
+			"pubDate": "Fri, 31 May 2024 11:00:00 +0000",
+			"image": "https://godotengine.org/storage/blog/covers/dev-snapshot-godot-4-3-beta-1.webp"
+		},
+		
+		{
+			"title": "Web Export in 4.3",
+			"link": "https://godotengine.org/article/progress-report-web-export-in-4-3/",
+			"description": "With single-threaded builds and sample playback, it&#39;s now easier than ever to export your game to the Web with Godot 4.3. And more!",
+			"categories": ["Progress Report"],
+			"guid": "https://godotengine.org/article/progress-report-web-export-in-4-3/",
+			"dc:creator": "Adam Scott",
+			"pubDate": "Wed, 15 May 2024 13:15:00 +0000",
+			"image": "https://godotengine.org/storage/blog/covers/progress-report-web-export-in-4-3.webp"
+		},
+		
+		{
+			"title": "Dev snapshot: Godot 3.6 beta 5",
+			"link": "https://godotengine.org/article/dev-snapshot-godot-3-6-beta-5/",
+			"description": "This beta represents feature freeze for 3.6. We will now concentrate on bug fixing until we reach stable.",
+			"categories": ["Pre-release"],
+			"guid": "https://godotengine.org/article/dev-snapshot-godot-3-6-beta-5/",
+			"dc:creator": "lawnjelly",
+			"pubDate": "Mon, 13 May 2024 14:00:00 +0000",
+			"image": "https://godotengine.org/storage/blog/covers/dev-snapshot-godot-3-6-beta-5.webp"
+		},
+		
+		{
 			"title": "Dev snapshot: Godot 4.3 dev 6",
 			"link": "https://godotengine.org/article/dev-snapshot-godot-4-3-dev-6/",
 			"description": "The last dev snapshot for 4.3 before feature freeze is a big one after 6 weeks of work!",
@@ -233,39 +266,6 @@
 			"dc:creator": "Yuri Sizov",
 			"pubDate": "Thu, 21 Dec 2023 17:00:00 +0000",
 			"image": "https://godotengine.org/storage/blog/covers/dev-snapshot-godot-4-3-dev-1.webp"
-		},
-		
-		{
-			"title": "Prepare to hear a lot more from us!",
-			"link": "https://godotengine.org/article/communications-update-2023/",
-			"description": "The Godot Foundation is onboarding a person in charge of Community &amp; Communications, and there is a feedback form for you to fill out.",
-			"categories": ["News"],
-			"guid": "https://godotengine.org/article/communications-update-2023/",
-			"dc:creator": "Godot Foundation",
-			"pubDate": "Mon, 18 Dec 2023 15:00:00 +0000",
-			"image": "https://godotengine.org/storage/blog/covers/comms-update-18122023.jpg"
-		},
-		
-		{
-			"title": "Announcing a collaboration with Google and The Forge",
-			"link": "https://godotengine.org/article/collaboration-with-google-forge-2023/",
-			"description": "We are excited to announce that we have partnered with Google and The Forge to bring some helpful performance optimizations to our Vulkan mobile backend.",
-			"categories": ["News"],
-			"guid": "https://godotengine.org/article/collaboration-with-google-forge-2023/",
-			"dc:creator": "Clay John",
-			"pubDate": "Thu, 14 Dec 2023 15:00:00 +0000",
-			"image": "https://godotengine.org/storage/blog/covers/android-and-vulkan.webp"
-		},
-		
-		{
-			"title": "Maintenance release: Godot 4.2.1",
-			"link": "https://godotengine.org/article/maintenance-release-godot-4-2-1/",
-			"description": "This first maintenance release fixes a number of platform compatibility issues introduced in Godot 4.2, which should make it much easier to upgrade from 4.1 or start new projects on all platforms.",
-			"categories": ["Release"],
-			"guid": "https://godotengine.org/article/maintenance-release-godot-4-2-1/",
-			"dc:creator": "Rémi Verschelde",
-			"pubDate": "Tue, 12 Dec 2023 13:00:00 +0000",
-			"image": "https://godotengine.org/storage/blog/covers/maintenance-release-godot-4-2-1.webp"
 		}
 		
 	]

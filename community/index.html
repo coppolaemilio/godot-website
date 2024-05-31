@@ -21,7 +21,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Godot News" href="/rss.xml">
 	<link rel="icon" href="/assets/favicon.png" sizes="any">
 	<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-	<link rel="stylesheet" href="/assets/css/main.css?111">
+	<link rel="stylesheet" href="/assets/css/main.css?112">
 	<link rel="stylesheet" href="/assets/css/tobii.min.css">
 	<link rel="preload" as="font" href="/assets/fonts/Montserrat-Bold.woff2" crossorigin>
 	<link rel="preload" as="font" href="/assets/fonts/Montserrat-ExtraBold.woff2" crossorigin>
@@ -44,17 +44,17 @@
 
 		<nav id="nav">
 			<ul class="left">
-				<li><a href="/features">Features</a></li>
-				<li class="only-on-mobile"><a href="/showcase">Showcase</a></li>
-				<li><a href="/blog">Blog</a></li>
-				<li><a href="/community">Community</a></li>
-				<li><a href="/contact">About</a></li>
+				<li><a href="/features/">Features</a></li>
+				<li class="only-on-mobile"><a href="/showcase/">Showcase</a></li>
+				<li><a href="/blog/">Blog</a></li>
+				<li><a href="/community/">Community</a></li>
+				<li><a href="/contact/">About</a></li>
 				<li><a href="https://godotengine.org/asset-library/asset">Assets</a></li>
 			</ul>
 
 			<ul class="right">
-				<li><a href="/download/windows" class="set-os-download-url">Download</a></li>
-				<li><a href="https://docs.godotengine.org">Learn</a></li>
+				<li><a href="/download/windows/" class="set-os-download-url">Download</a></li>
+				<li><a href="https://docs.godotengine.org">Docs</a></li>
 				<li><a href="https://docs.godotengine.org/en/stable/community/contributing/index.html">Contribute</a></li>
 				
 				<li class="fund"><a href="https://fund.godotengine.org">❤&#xFE0E; Donate</a></li>
@@ -66,6 +66,9 @@
 <main>
 
 <style>
+	h3.smaller {
+		font-size: 25px;
+	}
 	.card {
 		height: 100%;
 	}
@@ -90,6 +93,11 @@
 		grid-column-end: span 2;
 		display: flex;
 		flex-direction: column;
+	}
+	@media (max-width: 540px) {
+		.community-list .community-short-block {
+			grid-column-end: span 1;
+		}
 	}
 
 	.community-list .community-short-block .card {
@@ -183,7 +191,7 @@
 			<h1 class="intro-title">Community</h1>
 			<p class="small">
 				Godot has a very active community across multiple channels.<br>
-				By joining Godot communities, you agree to follow Godot's <a href="/code-of-conduct">Code of Conduct</a>.
+				By joining Godot communities, you agree to follow Godot's <a href="/code-of-conduct/">Code of Conduct</a>.
 			</p>
 		</div>
 	</div>
@@ -192,7 +200,7 @@
 <div class="container community-list">
 	<div class="community-stack">
 		<div class="community-block">
-			<a href="/events" class="card base-padding" id="events">
+			<a href="/events/" class="card base-padding" id="events">
 				<div>
 					<h3>Events</h3>
 					<p>Upcoming community and past events.</p>
@@ -330,8 +338,22 @@
 						loading="lazy">
 				</a>
 				<div class="base-padding">
-					<h3><a href="https://godotforums.org">Forums</a></h3>
+					<h3 class="smaller"><a href="https://godotforums.org">Forums</a></h3>
 					<p>Community forum for all Godot developers.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="community-block">
+			<div class="card">
+				<a href="https://programming.dev/c/godot">
+					<img src="/assets/community/community-lemmy.webp" width="350" height="215" alt=""
+						style="background: linear-gradient(90deg, #e3eaf1 2%, #e3eaf1 28%, #e3eaf1 57%, #e3eaf1 90%)"
+						loading="lazy">
+				</a>
+				<div class="base-padding">
+					<h3 class="smaller"><a href="https://programming.dev/c/godot">Programming.Dev</a></h3>
+					<p>A community for discussion and support in development with the game engine.</p>
 				</div>
 			</div>
 		</div>
@@ -404,37 +426,38 @@
 		<div id="sitemap">
 			<ul class="sitemap-group">
 				<li><strong>Get Godot</strong></li>
-				<li><a href="/download/windows" class="set-os-download-url">Download</a></li>
+				<li><a href="/download/windows/" class="set-os-download-url">Download</a></li>
+				<li><a href="/download/archive/">Release Archive</a></li>
 				<li><a href="https://editor.godotengine.org/releases/latest/">Web Editor</a></li>
 				<li>&nbsp;</li>
 				<li><strong>Public Relations</strong></li>
-				<li><a href="/blog">Blog</a></li>
-				<li><a href="/community">Communities and Events</a></li>
-				<li><a href="/press">Press Kit</a></li>
+				<li><a href="/blog/">Blog</a></li>
+				<li><a href="/community/">Communities and Events</a></li>
+				<li><a href="/press/">Press Kit</a></li>
 			</ul>
 			<ul class="sitemap-group">
 				<li><strong>About Godot</strong></li>
-				<li><a href="/features">Features</a></li>
-				<li><a href="/showcase">Showcase</a></li>
-				<li><a href="/education">Education</a></li>
-				<li><a href="/license">License</a></li>
-				<li><a href="/code-of-conduct">Code of Conduct</a></li>
-				<li><a href="/privacy-policy">Privacy Policy</a></li>
+				<li><a href="/features/">Features</a></li>
+				<li><a href="/showcase/">Showcase</a></li>
+				<li><a href="/education/">Education</a></li>
+				<li><a href="/license/">License</a></li>
+				<li><a href="/code-of-conduct/">Code of Conduct</a></li>
+				<li><a href="/privacy-policy/">Privacy Policy</a></li>
 				<li><a href="https://fund.godotengine.org">Donate</a></li>
 			</ul>
 			<ul class="sitemap-group">
 				<li><strong>Project Team</strong></li>
-				<li><a href="/governance">Governance</a></li>
-				<li><a href="/teams">Teams</a></li>
+				<li><a href="/governance/">Governance</a></li>
+				<li><a href="/teams/">Teams</a></li>
 				<li>&nbsp;</li>
 				<li><strong>Extra Resources</strong></li>
-				<li><a href="/asset-library/asset">Asset Library</a></li>
+				<li><a href="https://godotengine.org/asset-library/asset">Asset Library</a></li>
 				<li><a href="https://docs.godotengine.org">Documentation</a></li>
 				<li><a href="https://github.com/godotengine">Code Repository</a></li>
 			</ul>
 		</div>
 		<div id="social" class="dark-desaturate">
-			<h4 class="text-right"><a href="/contact">Contact us</a></h4>
+			<h4 class="text-right"><a href="/contact/">Contact us</a></h4>
 			<div class="flex justify-space-between" style="gap: 3px;">
 				<a href="https://github.com/godotengine" target="_blank" rel="noopener">
 					<img src="/assets/footer/github_logo.svg" width="32" height="32" alt="GitHub">
@@ -500,7 +523,7 @@
 				link_platform = 'linux';
 			}
 
-			link.href = `/${link_slug}/${link_platform}`;
+			link.href = `/${link_slug}/${link_platform}/`;
 		}
 	});
 </script>

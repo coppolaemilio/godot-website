@@ -21,7 +21,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Godot News" href="/rss.xml">
 	<link rel="icon" href="/assets/favicon.png" sizes="any">
 	<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-	<link rel="stylesheet" href="/assets/css/main.css?111">
+	<link rel="stylesheet" href="/assets/css/main.css?112">
 	<link rel="stylesheet" href="/assets/css/tobii.min.css">
 	<link rel="preload" as="font" href="/assets/fonts/Montserrat-Bold.woff2" crossorigin>
 	<link rel="preload" as="font" href="/assets/fonts/Montserrat-ExtraBold.woff2" crossorigin>
@@ -44,17 +44,17 @@
 
 		<nav id="nav">
 			<ul class="left">
-				<li><a href="/features">Features</a></li>
-				<li class="only-on-mobile"><a href="/showcase">Showcase</a></li>
-				<li><a href="/blog">Blog</a></li>
-				<li><a href="/community">Community</a></li>
-				<li><a href="/contact">About</a></li>
+				<li><a href="/features/">Features</a></li>
+				<li class="only-on-mobile"><a href="/showcase/">Showcase</a></li>
+				<li><a href="/blog/">Blog</a></li>
+				<li><a href="/community/">Community</a></li>
+				<li><a href="/contact/">About</a></li>
 				<li><a href="https://godotengine.org/asset-library/asset">Assets</a></li>
 			</ul>
 
 			<ul class="right">
-				<li><a href="/download/windows" class="set-os-download-url">Download</a></li>
-				<li><a href="https://docs.godotengine.org">Learn</a></li>
+				<li><a href="/download/windows/" class="set-os-download-url">Download</a></li>
+				<li><a href="https://docs.godotengine.org">Docs</a></li>
 				<li><a href="https://docs.godotengine.org/en/stable/community/contributing/index.html">Contribute</a></li>
 				
 				<li class="fund"><a href="https://fund.godotengine.org">❤&#xFE0E; Donate</a></li>
@@ -84,16 +84,22 @@
 	.main-download-links .btn-download {
 		width: 100%;
 	}
-	.main-download-links .btn-download:nth-of-type(2n) {
-		background-color: rgb(132 151 174 / 68%);
-		-webkit-backdrop-filter: blur(4px);
-		backdrop-filter: blur(4px);
+
+	.main-download-links .download-3 {
+		text-align: center;
+		color: #ffffffd6;
+		text-shadow: 0 0 10px black;
+		font-weight: 100;
+		font-size: 15px;
 	}
-	.main-download-links .btn-download:nth-of-type(2n) .download-title {
-		color: #f7f7f7;
+
+	.main-download-links .download-3 a {
+		color: inherit;
+		text-decoration-color: inherit;
+		text-decoration-thickness: 1px;
 	}
-	.main-download-links .btn-download:nth-of-type(2n) .download-hint {
-		background-color: var(--primary-color-subdued);
+	.main-download-links .download-3 a:hover {
+		color: white;
 	}
 
 	@media (max-width: 900px) {
@@ -226,8 +232,7 @@
 	<div class="wrapper">
 		<div class="copy container">
 			<h1>
-				Your free,<br>
-				open&#8209;source<br>
+				Your free, open&#8209;source<br>
 				game engine.
 			</h1>
 			<p>Develop your 2D &amp; 3D games, cross-platform projects, or even XR ideas!</p>
@@ -237,20 +242,14 @@
 				
 
 				<div class="main-download-links">
-					<a href="/download/windows" class="btn btn-download set-os-download-url" data-version="4"
+					<a href="/download/windows/" class="btn btn-download set-os-download-url" data-version="4"
 						title="Download the latest version of Godot 4">
 						<div class="download-title">Download Latest</div>
 						<div class="download-hint">4.2.2</div>
 					</a>
 
-					<a href="/download/windows" class="btn btn-download set-os-download-url" data-version="3"
-						title="Download the long-term support version of Godot 3">
-						<div class="download-title">Download LTS</div>
-						<div class="download-hint">3.5.3</div>
-					</a>
+					<span class="download-3">Looking for <a href="/download/windows/" class="set-os-download-url" data-version="3" title="Download the long-term support version of Godot 3">Godot 3</a> or a <a href="/download/archive">previous version</a>?</span>
 				</div>
-
-				<a href="/features" class="btn btn-flat btn-flat-white btn-flat-frosted btn-hero-learn-more">Learn more</a>
 			</div>
 		</div>
 	</div>
@@ -265,13 +264,13 @@
 
 		
 		
-		<a href="/article/dev-snapshot-godot-4-3-dev-6/" style="text-decoration: none">
+		<a href="/article/dev-snapshot-godot-4-3-beta-1/" style="text-decoration: none">
 			<article class="article-card">
-				<div class="thumbnail" style="background-image: url('/storage/blog/covers/dev-snapshot-godot-4-3-dev-6.webp');"></div>
+				<div class="thumbnail" style="background-image: url('/storage/blog/covers/dev-snapshot-godot-4-3-beta-1.webp');"></div>
 				<div class="content">
-					<h3>Dev snapshot: Godot 4.3 dev 6</h3>
-					<p class="excerpt">The last dev snapshot for 4.3 before feature freeze is a big one after 6 weeks of work!</p>
-					<span class="date" data-post-date="2024-05-01 13:00:00 +0000"> 1 May 2024</span>
+					<h3>Dev snapshot: Godot 4.3 beta 1</h3>
+					<p class="excerpt">Godot 4.3 is ready for broad testing as we finalize the release.</p>
+					<span class="date" data-post-date="2024-05-31 11:00:00 +0000">31 May 2024</span>
 				</div>
 			</article>
 		</a>
@@ -281,46 +280,46 @@
 			<div style="display: grid; gap: 18px;">
 				
 				
-				<a href="/article/introducing-reverse-z/" style="text-decoration: none;">
+				<a href="/article/progress-report-web-export-in-4-3/" style="text-decoration: none;">
 					<article class="article-card row">
-						<div class="thumbnail" style="background-image: url('/storage/blog/covers/introducing-reverse-z.webp');" href="/article/introducing-reverse-z/"></div>
+						<div class="thumbnail" style="background-image: url('/storage/blog/covers/progress-report-web-export-in-4-3.webp');" href="/article/progress-report-web-export-in-4-3/"></div>
 						<div>
-							<h3>Introducing Reverse Z (AKA I'm sorry for breaking your shader)</h3>
-							<p class="excerpt">We are breaking compatibility for some custom shaders. Here is why.</p>
-							<span class="date" data-post-date="2024-04-29 13:00:00 +0000">29 April 2024</span>
+							<h3>Web Export in 4.3</h3>
+							<p class="excerpt">With single-threaded builds and sample playback, it's now easier than ever to export your game to th...</p>
+							<span class="date" data-post-date="2024-05-15 13:15:00 +0000">15 May 2024</span>
 						</div>
 					</article>
 				</a>
 				
 				
 				
-				<a href="/article/update-on-google-forge-2024/" style="text-decoration: none;">
+				<a href="/article/dev-snapshot-godot-3-6-beta-5/" style="text-decoration: none;">
 					<article class="article-card row">
-						<div class="thumbnail" style="background-image: url('/storage/blog/covers/godot-and-android-and-vulkan.webp');" href="/article/update-on-google-forge-2024/"></div>
+						<div class="thumbnail" style="background-image: url('/storage/blog/covers/dev-snapshot-godot-3-6-beta-5.webp');" href="/article/dev-snapshot-godot-3-6-beta-5/"></div>
 						<div>
-							<h3>Update on the Collaboration with Google and The Forge</h3>
-							<p class="excerpt">The collaboration with Google and The Forge has concluded successfully!</p>
-							<span class="date" data-post-date="2024-04-19 18:00:00 +0000">19 April 2024</span>
+							<h3>Dev snapshot: Godot 3.6 beta 5</h3>
+							<p class="excerpt">This beta represents feature freeze for 3.6. We will now concentrate on bug fixing until we reach st...</p>
+							<span class="date" data-post-date="2024-05-13 14:00:00 +0000">13 May 2024</span>
 						</div>
 					</article>
 				</a>
 				
 				
 				
-				<a href="/article/maintenance-release-godot-4-2-2-and-4-1-4/" style="text-decoration: none;">
+				<a href="/article/dev-snapshot-godot-4-3-dev-6/" style="text-decoration: none;">
 					<article class="article-card row">
-						<div class="thumbnail" style="background-image: url('/storage/blog/covers/maintenance-release-godot-4-2-2-and-4-1-4.webp');" href="/article/maintenance-release-godot-4-2-2-and-4-1-4/"></div>
+						<div class="thumbnail" style="background-image: url('/storage/blog/covers/dev-snapshot-godot-4-3-dev-6.webp');" href="/article/dev-snapshot-godot-4-3-dev-6/"></div>
 						<div>
-							<h3>Maintenance release: Godot 4.2.2 & 4.1.4</h3>
-							<p class="excerpt">It's been a while since our last update for the 4.2 and 4.1 branches, but the wait should be worth it!</p>
-							<span class="date" data-post-date="2024-04-17 17:00:00 +0000">17 April 2024</span>
+							<h3>Dev snapshot: Godot 4.3 dev 6</h3>
+							<p class="excerpt">The last dev snapshot for 4.3 before feature freeze is a big one after 6 weeks of work!</p>
+							<span class="date" data-post-date="2024-05-01 13:00:00 +0000"> 1 May 2024</span>
 						</div>
 					</article>
 				</a>
 				
 				
 				<div class="button-container">
-					<a href="/blog" class="btn no-margin">More News</a>
+					<a href="/blog/" class="btn no-margin">More News</a>
 				</div>
 			</div>
 		</div>
@@ -421,7 +420,7 @@
 	</div>
 
 	<div class="features-learn-more">
-		<a href="/features" class="btn btn-flat btn-flat-white btn-flat-frosted">Learn more about using Godot</a>
+		<a href="/features/" class="btn btn-flat btn-flat-white btn-flat-frosted">Learn more about using Godot</a>
 	</div>
 </section>
 
@@ -500,10 +499,6 @@
 		<h3>Sponsor Platinum</h3>
 		<div class="grid platinum">
 			
-			<a class="sponsor-card platinum" href="https://heroiclabs.com/" target="_blank" rel="noopener">
-				<img src="https://fund.godotengine.org/static/logos/heroiclabs.png" alt="Heroic Labs">
-			</a>
-			
 			<a class="sponsor-card platinum" href="https://w4games.com/" target="_blank" rel="noopener">
 				<img src="https://fund.godotengine.org/static/logos/w4.png" alt="W4 Games">
 			</a>
@@ -560,12 +555,12 @@
 				<img src="https://fund.godotengine.org/static/logos/chasing-carrots.webp" alt="Chasing Carrots" loading="lazy">
 			</a>
 			
-			<a class="sponsor-card silver" href="https://null.com/" target="_blank" rel="noopener">
-				<img src="https://fund.godotengine.org/static/logos/null.svg" alt="Null" loading="lazy">
-			</a>
-			
 			<a class="sponsor-card silver" href="https://indoorastronaut.ch/" target="_blank" rel="noopener">
 				<img src="https://fund.godotengine.org/static/logos/indoor-astronaut.png" alt="Indoor Astronaut" loading="lazy">
+			</a>
+			
+			<a class="sponsor-card silver" href="https://loadcomplete.com/" target="_blank" rel="noopener">
+				<img src="https://fund.godotengine.org/static/logos/loadcomplete.png" alt="LoadComplete" loading="lazy">
 			</a>
 			
 		</div>
@@ -796,37 +791,38 @@
 		<div id="sitemap">
 			<ul class="sitemap-group">
 				<li><strong>Get Godot</strong></li>
-				<li><a href="/download/windows" class="set-os-download-url">Download</a></li>
+				<li><a href="/download/windows/" class="set-os-download-url">Download</a></li>
+				<li><a href="/download/archive/">Release Archive</a></li>
 				<li><a href="https://editor.godotengine.org/releases/latest/">Web Editor</a></li>
 				<li>&nbsp;</li>
 				<li><strong>Public Relations</strong></li>
-				<li><a href="/blog">Blog</a></li>
-				<li><a href="/community">Communities and Events</a></li>
-				<li><a href="/press">Press Kit</a></li>
+				<li><a href="/blog/">Blog</a></li>
+				<li><a href="/community/">Communities and Events</a></li>
+				<li><a href="/press/">Press Kit</a></li>
 			</ul>
 			<ul class="sitemap-group">
 				<li><strong>About Godot</strong></li>
-				<li><a href="/features">Features</a></li>
-				<li><a href="/showcase">Showcase</a></li>
-				<li><a href="/education">Education</a></li>
-				<li><a href="/license">License</a></li>
-				<li><a href="/code-of-conduct">Code of Conduct</a></li>
-				<li><a href="/privacy-policy">Privacy Policy</a></li>
+				<li><a href="/features/">Features</a></li>
+				<li><a href="/showcase/">Showcase</a></li>
+				<li><a href="/education/">Education</a></li>
+				<li><a href="/license/">License</a></li>
+				<li><a href="/code-of-conduct/">Code of Conduct</a></li>
+				<li><a href="/privacy-policy/">Privacy Policy</a></li>
 				<li><a href="https://fund.godotengine.org">Donate</a></li>
 			</ul>
 			<ul class="sitemap-group">
 				<li><strong>Project Team</strong></li>
-				<li><a href="/governance">Governance</a></li>
-				<li><a href="/teams">Teams</a></li>
+				<li><a href="/governance/">Governance</a></li>
+				<li><a href="/teams/">Teams</a></li>
 				<li>&nbsp;</li>
 				<li><strong>Extra Resources</strong></li>
-				<li><a href="/asset-library/asset">Asset Library</a></li>
+				<li><a href="https://godotengine.org/asset-library/asset">Asset Library</a></li>
 				<li><a href="https://docs.godotengine.org">Documentation</a></li>
 				<li><a href="https://github.com/godotengine">Code Repository</a></li>
 			</ul>
 		</div>
 		<div id="social" class="dark-desaturate">
-			<h4 class="text-right"><a href="/contact">Contact us</a></h4>
+			<h4 class="text-right"><a href="/contact/">Contact us</a></h4>
 			<div class="flex justify-space-between" style="gap: 3px;">
 				<a href="https://github.com/godotengine" target="_blank" rel="noopener">
 					<img src="/assets/footer/github_logo.svg" width="32" height="32" alt="GitHub">
@@ -892,7 +888,7 @@
 				link_platform = 'linux';
 			}
 
-			link.href = `/${link_slug}/${link_platform}`;
+			link.href = `/${link_slug}/${link_platform}/`;
 		}
 	});
 </script>

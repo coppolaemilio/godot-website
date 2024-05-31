@@ -21,7 +21,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Godot News" href="/rss.xml">
 	<link rel="icon" href="/assets/favicon.png" sizes="any">
 	<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-	<link rel="stylesheet" href="/assets/css/main.css?111">
+	<link rel="stylesheet" href="/assets/css/main.css?112">
 	<link rel="stylesheet" href="/assets/css/tobii.min.css">
 	<link rel="preload" as="font" href="/assets/fonts/Montserrat-Bold.woff2" crossorigin>
 	<link rel="preload" as="font" href="/assets/fonts/Montserrat-ExtraBold.woff2" crossorigin>
@@ -44,17 +44,17 @@
 
 		<nav id="nav">
 			<ul class="left">
-				<li><a href="/features">Features</a></li>
-				<li class="only-on-mobile"><a href="/showcase">Showcase</a></li>
-				<li><a href="/blog">Blog</a></li>
-				<li><a href="/community">Community</a></li>
-				<li><a href="/contact">About</a></li>
+				<li><a href="/features/">Features</a></li>
+				<li class="only-on-mobile"><a href="/showcase/">Showcase</a></li>
+				<li><a href="/blog/">Blog</a></li>
+				<li><a href="/community/">Community</a></li>
+				<li><a href="/contact/">About</a></li>
 				<li><a href="https://godotengine.org/asset-library/asset">Assets</a></li>
 			</ul>
 
 			<ul class="right">
-				<li><a href="/download/windows" class="set-os-download-url">Download</a></li>
-				<li><a href="https://docs.godotengine.org">Learn</a></li>
+				<li><a href="/download/windows/" class="set-os-download-url">Download</a></li>
+				<li><a href="https://docs.godotengine.org">Docs</a></li>
 				<li><a href="https://docs.godotengine.org/en/stable/community/contributing/index.html">Contribute</a></li>
 				
 				<li class="fund"><a href="https://fund.godotengine.org">❤&#xFE0E; Donate</a></li>
@@ -90,7 +90,7 @@
 		gap: 30px;
 		padding: 20px 0 39px;
 	}
-	.head .main > :last-child,  
+	.head .main > :last-child,
 	.head .main > :first-child {
 		margin: 0;
 	}
@@ -139,13 +139,13 @@
 
 <div class="container">
 	<!-- Search -->
-	
+
 
 	<!-- Categories -->
-	
+
 	<div class="tags">
 		<h3>Categories </h3>
-		<a href="/blog" title="Show all categories">
+		<a href="/blog/" title="Show all categories">
 			<div class="tag tag--default active">All</div>
 		</a>
 
@@ -227,6 +227,60 @@
 		
 	</div>
 	<div class="posts">
+		
+		<a href="/article/maintenance-release-godot-3-3-2/" style="text-decoration: none">
+			<article class="article-card">
+				<div class="thumbnail" style="background-image: url('/storage/app/uploads/public/60a/bf7/19d/60abf719de011665823007.png');" href="/article/maintenance-release-godot-3-3-2/"></div>
+				<div class="content">
+					<div class="info">
+						
+						
+							<img class="avatar" width="25" height="25" src="/assets/images/authors/akien.webp" alt="Rémi Verschelde" loading="lazy">
+						
+						<span class="by">Rémi Verschelde </span>
+						<span class="date">&nbsp;-&nbsp;24 May 2021</span>
+					</div>
+					<h3>Maintenance release: Godot 3.3.2</h3>
+					<p class="excerpt">Here's a new bugfix release for the 3.3 branch, fixing some regressions in Godot 3.3.1 (notably some crash conditions) and a handful of other minor issues.</p>
+				</div>
+			</article>
+		</a>
+		
+		<a href="/article/physics-progress-report-1/" style="text-decoration: none">
+			<article class="article-card">
+				<div class="thumbnail" style="background-image: url('/storage/app/uploads/public/60a/554/df7/60a554df7b179532579882.png');" href="/article/physics-progress-report-1/"></div>
+				<div class="content">
+					<div class="info">
+						
+						
+							<img class="avatar" width="25" height="25" src="/assets/images/authors/default_avatar.svg" alt="Camille Mohr-Daurat" loading="lazy">
+						
+						<span class="by">Camille Mohr-Daurat </span>
+						<span class="date">&nbsp;-&nbsp;19 May 2021</span>
+					</div>
+					<h3>Physics progress report #1</h3>
+					<p class="excerpt">Update on Godot physics engine improvements: test framework, bug fixing, new features and optimizations.</p>
+				</div>
+			</article>
+		</a>
+		
+		<a href="/article/maintenance-release-godot-3-3-1/" style="text-decoration: none">
+			<article class="article-card">
+				<div class="thumbnail" style="background-image: url('/storage/app/uploads/public/60a/3f2/4d6/60a3f24d6f559187028182.png');" href="/article/maintenance-release-godot-3-3-1/"></div>
+				<div class="content">
+					<div class="info">
+						
+						
+							<img class="avatar" width="25" height="25" src="/assets/images/authors/akien.webp" alt="Rémi Verschelde" loading="lazy">
+						
+						<span class="by">Rémi Verschelde </span>
+						<span class="date">&nbsp;-&nbsp;18 May 2021</span>
+					</div>
+					<h3>Maintenance release: Godot 3.3.1</h3>
+					<p class="excerpt">We released Godot 3.3 a few weeks ago, and feedback so far has been pretty good! But like with any major milestone, there are some bugs which are worth addressing with low-risk maintenance releases to further improve the experience for all Godot users. Godot 3.3.1 focuses purely on bug fixes, and aims to preserve compatibility.</p>
+				</div>
+			</article>
+		</a>
 		
 		<a href="/article/release-candidate-godot-3-3-1-rc-2/" style="text-decoration: none">
 			<article class="article-card">
@@ -606,60 +660,6 @@
 			</article>
 		</a>
 		
-		<a href="/article/joan-fons-hired-work-godot-rendering/" style="text-decoration: none">
-			<article class="article-card">
-				<div class="thumbnail" style="background-image: url('/storage/app/uploads/public/603/d19/c65/603d19c65f84b182870883.png');" href="/article/joan-fons-hired-work-godot-rendering/"></div>
-				<div class="content">
-					<div class="info">
-						
-						
-							<img class="avatar" width="25" height="25" src="/assets/images/authors/joan.webp" alt="Joan Fons" loading="lazy">
-						
-						<span class="by">Joan Fons </span>
-						<span class="date">&nbsp;-&nbsp; 1 March 2021</span>
-					</div>
-					<h3>Joan Fons is hired to work on Godot's rendering</h3>
-					<p class="excerpt">Hello! This is Joan speaking. I'm happy to announce that, starting today, I will be working as a full-time Godot developer, and my main focus will be anything rendering related.</p>
-				</div>
-			</article>
-		</a>
-		
-		<a href="/article/why-isnt-godot-ecs-based-game-engine/" style="text-decoration: none">
-			<article class="article-card">
-				<div class="thumbnail" style="background-image: url('/storage/app/uploads/public/603/926/d51/603926d51ea4c913888481.png');" href="/article/why-isnt-godot-ecs-based-game-engine/"></div>
-				<div class="content">
-					<div class="info">
-						
-						
-							<img class="avatar" width="25" height="25" src="/assets/images/authors/reduzio.webp" alt="Juan Linietsky" loading="lazy">
-						
-						<span class="by">Juan Linietsky </span>
-						<span class="date">&nbsp;-&nbsp;26 February 2021</span>
-					</div>
-					<h3>Why isn't Godot an ECS-based game engine?</h3>
-					<p class="excerpt">The topic of why Godot does not utilize ECS comes up often, so this article will explain the design decisions behind that, as well as shed some light on how Godot works.</p>
-				</div>
-			</article>
-		</a>
-		
-		<a href="/article/release-candidate-godot-3-2-4-rc-3/" style="text-decoration: none">
-			<article class="article-card">
-				<div class="thumbnail" style="background-image: url('/storage/app/uploads/public/603/508/dcd/603508dcd82d0743700919.jpg');" href="/article/release-candidate-godot-3-2-4-rc-3/"></div>
-				<div class="content">
-					<div class="info">
-						
-						
-							<img class="avatar" width="25" height="25" src="/assets/images/authors/akien.webp" alt="Rémi Verschelde" loading="lazy">
-						
-						<span class="by">Rémi Verschelde </span>
-						<span class="date">&nbsp;-&nbsp;23 February 2021</span>
-					</div>
-					<h3>Release candidate: Godot 3.2.4 RC 3</h3>
-					<p class="excerpt">Godot 3.2.4 is shaping up nicely, and a number of issues have been fixed since the second Release Candidate. A few late features have also been included because they were too good to keep waiting (such as improved Inspector subresource editing and node copy-paste support). So it's now time for a RC 3 build to give it another round of testing before the stable release!</p>
-				</div>
-			</article>
-		</a>
-		
 	</div>
 	<div class="flex pagination">
 		
@@ -710,37 +710,38 @@
 		<div id="sitemap">
 			<ul class="sitemap-group">
 				<li><strong>Get Godot</strong></li>
-				<li><a href="/download/windows" class="set-os-download-url">Download</a></li>
+				<li><a href="/download/windows/" class="set-os-download-url">Download</a></li>
+				<li><a href="/download/archive/">Release Archive</a></li>
 				<li><a href="https://editor.godotengine.org/releases/latest/">Web Editor</a></li>
 				<li>&nbsp;</li>
 				<li><strong>Public Relations</strong></li>
-				<li><a href="/blog">Blog</a></li>
-				<li><a href="/community">Communities and Events</a></li>
-				<li><a href="/press">Press Kit</a></li>
+				<li><a href="/blog/">Blog</a></li>
+				<li><a href="/community/">Communities and Events</a></li>
+				<li><a href="/press/">Press Kit</a></li>
 			</ul>
 			<ul class="sitemap-group">
 				<li><strong>About Godot</strong></li>
-				<li><a href="/features">Features</a></li>
-				<li><a href="/showcase">Showcase</a></li>
-				<li><a href="/education">Education</a></li>
-				<li><a href="/license">License</a></li>
-				<li><a href="/code-of-conduct">Code of Conduct</a></li>
-				<li><a href="/privacy-policy">Privacy Policy</a></li>
+				<li><a href="/features/">Features</a></li>
+				<li><a href="/showcase/">Showcase</a></li>
+				<li><a href="/education/">Education</a></li>
+				<li><a href="/license/">License</a></li>
+				<li><a href="/code-of-conduct/">Code of Conduct</a></li>
+				<li><a href="/privacy-policy/">Privacy Policy</a></li>
 				<li><a href="https://fund.godotengine.org">Donate</a></li>
 			</ul>
 			<ul class="sitemap-group">
 				<li><strong>Project Team</strong></li>
-				<li><a href="/governance">Governance</a></li>
-				<li><a href="/teams">Teams</a></li>
+				<li><a href="/governance/">Governance</a></li>
+				<li><a href="/teams/">Teams</a></li>
 				<li>&nbsp;</li>
 				<li><strong>Extra Resources</strong></li>
-				<li><a href="/asset-library/asset">Asset Library</a></li>
+				<li><a href="https://godotengine.org/asset-library/asset">Asset Library</a></li>
 				<li><a href="https://docs.godotengine.org">Documentation</a></li>
 				<li><a href="https://github.com/godotengine">Code Repository</a></li>
 			</ul>
 		</div>
 		<div id="social" class="dark-desaturate">
-			<h4 class="text-right"><a href="/contact">Contact us</a></h4>
+			<h4 class="text-right"><a href="/contact/">Contact us</a></h4>
 			<div class="flex justify-space-between" style="gap: 3px;">
 				<a href="https://github.com/godotengine" target="_blank" rel="noopener">
 					<img src="/assets/footer/github_logo.svg" width="32" height="32" alt="GitHub">
@@ -806,7 +807,7 @@
 				link_platform = 'linux';
 			}
 
-			link.href = `/${link_slug}/${link_platform}`;
+			link.href = `/${link_slug}/${link_platform}/`;
 		}
 	});
 </script>
