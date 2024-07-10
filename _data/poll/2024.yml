@@ -1,0 +1,222 @@
+- name: Age
+  responses: 10763
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec nunc nec nunc.
+  original-question: Age group
+  chart:
+    - label: 1-17
+      responses: 1051
+    - label: 18-25
+      responses: 3358
+    - label: 26-35
+      responses: 3918
+    - label: 36-45
+      responses: 1827
+    - label: 46-65
+      responses: 595
+    - label: 65+
+      responses: 14
+- name: Gender
+  responses: 10763
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec nunc nec nunc.
+  original-question: Gender
+  chart:
+    - label: Male
+      responses: 9121
+    - label: Female
+      responses: 634
+    - label: Non-binary
+      responses: 510
+    - label: Other / Prefer not to say
+      responses: 498
+- name: Location
+  responses: 10763
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec nunc nec nunc.
+  original-question: Where do you live?
+  chart:
+    - label: Europe
+      responses: 4752
+    - label: North & Central America
+      responses: 3783
+    - label: Asia
+      responses: 994
+    - label: South America
+      responses: 689
+    - label: Oceania
+      responses: 385
+    - label: Africa
+      responses: 147
+    # - label: Antarctica
+    #   responses: 17
+- name: Experience
+  type: multiple-options
+  responses: 10763
+  text: 14.5% were developing non-games before, and 6.9% of people said that they have never developed a game before using Godot.
+  original-question: Before using Godot, which of the following did you use?
+  chart:
+    - label: Unity
+      responses: 6235
+    # - label: Other third party engine / library
+    #   responses: 2766
+    - label: Unreal Engine
+      responses: 2455
+    # - label: Minecraft (redstone, server, modding)
+    #   responses: 2161
+    - label: GameMaker
+      responses: 2131
+    - label: Own engine / technology
+      responses: 1697
+    # - label: Did not develop games before
+    #   responses: 1563
+    - label: RPG Maker
+      responses: 1329
+    - label: HTML5 Framework
+      responses: 795
+    - label: Cocos / LibGDX / SDL
+      responses: 766
+    # - label: Did not do any development before using Godot
+    #   responses: 746
+    - label: Flash / Haxe
+      responses: 697
+    - label: Roblox
+      responses: 646
+    - label: Construct
+      responses: 584
+    # - label: Uneral Editor for Fortnite
+    #   responses: 68
+# - name: When did you first hear of Godot?
+#   responses: 10763
+#   text: When did you first hear of Godot?
+#   original-question: When did you first hear of Godot?
+#   chart:
+#     - label: 2024
+#       responses: 331
+#     - label: 2023
+#       responses: 1748
+#     - label: 2022
+#       responses: 2244
+#     - label: 2021 or earlier
+#       responses: 6440
+- name: When did you start using Godot?
+  responses: 10763
+  text: While most people heard about Godot for the first time in earlier than 2022, 47.9% of people started using it in the last two years.
+  original-question: When did you start using Godot?
+  chart:
+    - label: 2024
+      responses: 1842
+    - label: 2023
+      responses: 3318
+    - label: 2022
+      responses: 1866
+    - label: 2021 or earlier
+      responses: 3522
+    - label: Not yet
+      responses: 215
+- name: In what capacity do you use Godot?
+  type: multiple-options
+  responses: 10763
+  text: 41.7% of the respondents use Godot in small projects or game jams, and 24.5% are learning how to use it.
+  original-question: In what capacity do you use Godot?
+  chart:
+    - label: Hobbyist
+      responses: 9431
+    - label: Self-Employed
+      responses: 2771
+    - label: Employed
+      responses: 463
+- name: What kind of projects are you using Godot for? How often do you work on such projects?
+  type: stack
+  responses: 10763
+  text: What kind of projects are you using Godot for? How often do you work on such projects?
+  original-question: What kind of projects are you using Godot for? How often do you work on such projects?
+  chart:
+    - label: 2D Game Dev
+      responses:
+        - label: Regularly
+          color: green
+          responses: 5039
+        - label: Ocassionally
+          color: yellow
+          responses: 3575
+        - label: Rarely/not at all
+          color: gray
+          responses: 2149
+    - label: 3D Game Dev
+      responses:
+        - label: Regularly
+          color: green
+          responses: 3467
+        - label: Ocassionally
+          color: yellow
+          responses: 3379
+        - label: Rarely/not at all
+          color: gray
+          responses: 3917
+    - label: GUI based App/Game
+      responses:
+        - label: Regularly
+          color: green
+          responses: 1439
+        - label: Ocassionally
+          color: yellow
+          responses: 2895
+        - label: Rarely/not at all
+          color: gray
+          responses: 6429
+- name: Are you using Godot for AR/VR/XR?
+  type: multiple-options
+  responses: 1156
+  text: 10.7% of Godot users are doing projects in AR/VR/XR. And the most popular option is Desktop VR. 
+  original-question: Are you using Godot for AR/VR/XR?
+  chart:
+    - label: AR
+      responses: 319
+    - label: Desktop VR
+      responses: 841
+    - label: Mobile VR
+      responses: 402
+- name: What are your main revenue source(s)?
+  type: multiple-options
+  responses: 3196
+  text: What are your main revenue source(s)?
+  original-question: What are your main revenue source(s)?
+  chart:
+    - label: Itch.io
+      responses: 1814
+    - label: Steam
+      responses: 1681
+    - label: Android
+      responses: 638
+    - label: Web
+      responses: 425
+    - label: iOS
+      responses: 309
+    - label: Steam Deck
+      responses: 178
+    - label: Epic Game Store
+      responses: 134
+    - label: Switch
+      responses: 114
+    - label: GoG
+      responses: 94
+- name: What are your main revenue method(s) using Godot?
+  type: multiple-options
+  responses: 3680
+  chart:
+    - label: Direct sale
+      responses: 2185
+    - label: Donations
+      responses: 924
+    - label: In-App Purchases
+      responses: 406
+    - label: Other method
+      responses: 380
+    - label: ADs
+      responses: 377
+    - label: Work for hire
+      responses: 375
+    - label: Employement
+      responses: 310
+    - label: Education
+      responses: 261
+    - label: Subscription
+      responses: 156

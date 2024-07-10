@@ -1,0 +1,74 @@
+---
+permalink: /poll/2024/index.html
+title: "2024 Poll Results - Godot Engine"
+description: "Godot Community Poll 2024"
+layout: default
+---
+
+<link rel="stylesheet" href="/assets/css/poll.css">
+
+{% include header.html %}
+
+<div class="container poll">
+	<div class="intro">
+		<h1>Godot Community Poll 2024</h1>
+		<p>Every year, we reach out to the Godot community to learn more about our users and how we can better support them. Our annual survey helps us understand who you are, how you use Godot, and what you need from the engine. We're excited to share the results of this year's survey, which provides valuable insights into our diverse and growing community. Below, you'll find the key findings from the responses we received.</p>
+		<p>We used a Google form to collect the results, you can find the results of it <a href="https://docs.google.com/forms/d/1eicOppRQG2RFZ8CjIGFf5Kha5yklO854fV8-YFtlWxk/viewanalytics">here</a>.</p>
+	</div>
+
+	<!-- 52 questions total -->
+
+	{% for s in site.data['poll']['2024'] %}
+		<section class="{% if s.type %}{{s.type}}{% endif %}">
+			<h3 id="{{ s.name | slugify }}">{{ s.name }}</h3>
+			<p class="responses"><span class="number">{{ s.responses }}</span> responses.</p>
+			<p>{{ s.text }}</p>
+			{% if s.type == "stack" %}
+				{% for part in s.chart %}
+					<h4>{{ part.label }}</h4>
+					<div class="chart">
+						{% for c in part.responses %}
+							<span class="label">{{ c.label }}</span>
+							<div class="result">
+								<div class="bar {{ c.color }}" title="{{ c.responses}} responses." data-total="{{ s.responses }}" data-responses="{{ c.responses }}"></div>
+								<span class="percentage"></span>
+								<span class="total">{{ c.responses }}</span>
+							</div>
+						{% endfor %}
+					</div>
+				{% endfor %}
+			{% else %}
+				<div class="chart">
+					{% for c in s.chart %}
+						<span class="label">{{ c.label }}</span>
+						<div class="result">
+							<div class="bar" title="{{ c.responses}} responses." data-total="{{ s.responses }}" data-responses="{{ c.responses }}"></div>
+							<span class="percentage"></span>
+							<span class="total">{{ c.responses }}</span>
+						</div>
+					{% endfor %}
+				</div>
+			{% endif %}
+		</section>
+	{% endfor %}
+</div>
+
+
+<script>
+// Calculating percentages
+document.querySelectorAll('.chart .bar').forEach(bar => {
+	const total = bar.getAttribute('data-total');
+	const responses = bar.getAttribute('data-responses');
+	const percentage = (responses / total) * 100;
+	bar.style.width = percentage + '%';
+	bar.nextElementSibling.textContent = percentage.toFixed(1) + '%';
+});
+
+// adding a comma to responses
+document.querySelectorAll('.responses .number').forEach(response => {
+	response.textContent = response.textContent.replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
+});
+
+</script>
+
+{% include footer.html %}
