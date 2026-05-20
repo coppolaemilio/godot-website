@@ -1,6 +1,6 @@
 ---
 title: "Introducing the Godot Asset Store"
-excerpt: "We've been working on replacing the Asset Library with something built for the present and future, here's what's coming."
+excerpt: "We've been working on replacing the Asset Library with something built for the present and future. Here's what's coming."
 categories: ["news"]
 author: Emi
 image: /storage/blog/covers/godot-asset-store.jpg
@@ -34,11 +34,11 @@ We will still need to keep the Asset Library running for a while since many olde
 
 We considered moving the assets from the library to the new store, but it wasn't feasible. We would first need everyone to create a new account and link them together (which would require changes to the old account system), then get permission from each asset author to republish on their behalf, and since the current Asset Library doesn't actually host any of the assets it distributes, we would need to re-upload all of them to the new hosting solution. There are also many differences in how assets are presented that would make the migration incomplete, and many of them have been abandoned or are no longer supported, so it would just create a lot of irrelevant entries in the new store.
 
-The new Godot Asset Store is still under development, but it already has far more features than the Asset Library: user reviews, multiple download versions per asset, tags, analytics, changelogs, and many more coming in the future (check the [roadmap here](https://store.godotengine.org/roadmap/)). Once this transition is finished, we will be able to make bigger improvements in both the online store and the tab inside the Godot Engine editor.
+The new Godot Asset Store is still under development, but it already has far more features than the Asset Library: user reviews, multiple download versions per asset, tags, analytics, changelogs, and many more coming in the future (check out the [roadmap](https://store.godotengine.org/roadmap/)). Once this transition is finished, we will be able to make bigger improvements in both the online store and the tab inside the Godot Engine editor.
 
 ## Future
 
-Being able to sell and buy assets is one of the most anticipated features of the Asset Store, but we want to make sure the transition away from the Asset Library is fully complete before enabling this. Buying and selling assets will give us a bit of extra funding to hopefully cover the costs of operating the store, but profit is not the Godot Foundation's priority for this project. You might notice that progress on the Asset Store is not as fast, because we are still going to be prioritizing the Godot Engine above any other project. So while we want to foster a space for people who up until now haven't been very engaged with the Godot community (primarily non-programmers), we also want it to be a space that's safe, functional, and up to the quality standards you'd expect from an asset store.
+Being able to sell and buy assets is one of the most anticipated features of the Asset Store, but we want to make sure the transition away from the Asset Library is fully complete before enabling this. Buying and selling assets will give us a bit of extra funding to hopefully cover the costs of operating the store, but profit is not the Godot Foundation's priority for this project. You might notice that progress on the Asset Store is not fast, because we are still going to be prioritizing the Godot Engine above any other project. So while we want to foster a space for people who up until now haven't been very engaged with the Godot community (primarily non-programmers), we also want it to be a space that's safe, functional, and up to the quality standards you'd expect from an asset store.
 
 We also want to make it easier for users to donate to free plugins. Many popular projects (like [Phantom Camera](https://store.godotengine.org/asset/ramokz/phantom-camera/), [Dialogue Manager](https://store.godotengine.org/asset/nathanhoad/dialogue-manager/), and [GodotSteam](https://store.godotengine.org/asset/godotsteam/godotsteam-gdextension/)) have been at the core of many existing projects, but this isn't translating well into donations. We hope that with the new Asset Store, donating to these plugins will become more common and give them the support they deserve to keep their assets free and open source for everyone.
 
